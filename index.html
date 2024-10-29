@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page d'accueil du CEFii Golf">
+    <title>CEFii Golf</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lustria&display=swap">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/c245ee9b98.js" crossorigin="anonymous"></script>
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/fonction.js" defer></script>
+</head>
+
+<body>
+    <!-- CONTENU DE MA PAGE -->
+    <div id="wrapper">
+
+        <!-- ENTETE DU CEFII GOLF -->
+        <header class="entete">
+
+            <!-- LOGO -->
+            <div class="enteteLogo">
+                <a href="index.html">
+                    <img src="images/logo-golf.png" alt="Logo du CEFii Golf" title="Le CEFii Golf">
+                </a>
+            </div>
+
+            <!-- ICONE DARK LIGHT -->
+            <div id="darkLight">
+                <i class="fa-solid fa-circle-half-stroke" title="Passer au mode sombre"></i>
+            </div>
+
+            <!-- MENU DE NAVIGATION -->
+            <nav class="enteteNavigation">
+                <ul class="menu">
+                    <li><a href="#" title="Accueil">ACCUEIL</a></li>
+                    <li><a href="#" title="Parcours">PARCOURS</a></li>
+                    <li class="menuDeroulant">
+                        <a href="#" title="Le domaine">LE DOMAINE <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="sousMenu">
+                            <li><a href="#" title="Le parc">LE PARC</a></li>
+                            <li><a href="#" title="L'hotel">L'HOTEL</a></li>
+                            <li><a href="#" title="Le restaurant">LE RESTAURANT</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" title="Les tournois">LES TOURNOIS</a></li>
+                    <li><a href="#" title="Tarifs & Contacts">TARIFS & CONTACTS</a></li>
+                </ul>
+            </nav>
+
+            <!-- ICONE BURGER -->
+            <div class="iconeBurger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+
+        <!-- CORPS DU CEFII GOLF -->
+        <main>
+
+            <!-- SECTION BIENVENUE / Image en background -->
+            <section class="sectionBienvenue">
+
+                <!-- CONTENEUR BIENVENUE / Décalé vers le bas -->
+                <div class="conteneurBienvenue">
+                    <h1>Bienvenue<br>au Gold du CEFii !</h1>
+                
+                    <!-- CONTENEUR EVENEMENT, SERVICES ET INFORMATION -->
+                    <div class="conteneurBoxBienvenue">
+                
+                        <!-- BOX EVENEMENTS -->
+                        <div class="boxBienvenue">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <h3>Nos événements</h3>
+                            <p>Inscrivez-vous au prochain tournoi de Golf</p>
+                        </div>
+                
+                        <!-- BOX SERVICES -->
+                        <div class="boxBienvenue">
+                            <i class="fa-solid fa-lightbulb"></i>
+                            <h3>Nos services</h3>
+                            <p>Découvrez tous nos services disponibles à l'année</p>
+                        </div>
+                
+                        <!-- BOX INFORMATION -->
+                        <div class="boxBienvenue">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <h3>Information</h3>
+                            <p>Les parcours sont momentanément fermés</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION INFORMATIONS -->
+            <section class="sectionInformations">
+
+                <!-- CONTENEUR A PROPOS ET EN SAVOIR PLUS -->
+                <div class="conteneurInformations">
+                    
+                    <!-- BOX A PROPOS -->
+                    <div class="boxApropos">
+                        <div class="boxAproposImg">
+                            <img src="images/a-propos.jpg" alt="Photo à propos">
+                        </div>
+                        <div class="boxAproposTexte">
+                            <h2>A propos de nous</h2>
+                            <p>Codifié en écosse en 1754 par le Royal & Ancient Golf Club de St Andrews, le golf est un sport de précision se jouant en plein air, qui consiste à envoyer une balle dans un trou à l'aide de clubs. Le but du jeu consiste à effectuer, sur un parcours défini, le moins de coups possible. Précision, endurance, technicité, concentration sont des qualités primordiales pour cette activité.</p>
+                        </div>
+                    </div>
+
+                    <!-- BOX EN SAVOIR PLUS  -->
+                    <div class="boxSavoir">
+                        <div class="boxSavoirImg">
+                            <img src="images/en-savoir-plus.jpg" alt="Photo en savoir plus">
+                        </div>
+                        <div class="boxSavoirTexte">
+                            <h2>En savoir plus</h2>
+                            <ul>
+                                <li>
+                                    <img src="images/drapeau-liste.png" alt="Drapeau de la liste">
+                                    <a href="#" title="Votre licence">Votre licence</a>
+                                </li>
+                                <li>
+                                    <img src="images/drapeau-liste.png" alt="Drapeau de la liste">
+                                    <a href="#" title="Vos droits">Vos droits</a>
+                                </li>
+                                <li>
+                                    <img src="images/drapeau-liste.png" alt="Drapeau de la liste">
+                                    <a href="#" title="Votre parcours">Votre parcours</a>
+                                </li>
+                                <li>
+                                    <img src="images/drapeau-liste.png" alt="Drapeau de la liste">
+                                    <a href="#" title="Vos soirées">Vos soirées</a>
+                                </li>
+                            </ul>
+                        </div>                        
+                    </div>
+                </div>
+
+                <!-- CONTENEUR A LA UNE -->
+                <article class="conteneurAlaUne">
+                    <h2>A la une</h2>
+                    <div class="conteneurBoxAlaUne">
+                        <div class="boxAlaUneImg">
+                            <img src="images/a-la-une.jpg" alt="Photo à la une">
+                            <p class="labelAlaUne">31/07</p>
+                        </div>
+                        <div class="boxAlaUneTexte">
+                            <p>Comment augmenter la puissance de votre swing ?</p>
+                            <p>Pour gagner de la vitesse il faut diposer d'énergie et l'utiliser au mieux. A la montée nous accumulons de l'énergie potentielle de pesanteur. Pendant la descente nous transformons cette énergie en énergie cinétique avec un minimum de pertes pour accélerer jusqu'au finish.</p>
+                            <div class="btnAlaUne">
+                                <a href="#" title="Lire la suite">Lire la suite</a>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- SECTION VIDEO A LA UNE -->
+            <aside class="sectionVideo">
+                <h2>Découvrez notre dernière vidéo !</h2>
+                <iframe src="https://www.youtube.com/embed/DbNQ52R0zNU?si=vAAmNy2NkxVrvSyD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </aside>
+
+            <!-- SECTION INSCRIPTION / Image en Background -->
+            <section class="sectionInscription">
+                <form id="formulaire" method="get" action="" novalidate>
+                    <i class="fa-regular fa-envelope"></i>
+                    <label class="label" for="email">Inscription à la newsletter</label>
+                    <input type="email" id="email" name="email" placeholder="Votre adresse email">
+                    <input type="submit" value="Valider" title="Valider">
+                </form>
+                <p id="zoneErreur"></p>
+                
+            </section>
+        </main>
+
+        <!-- PIED DU CEFII GOLF -->
+        <footer class="pied">
+
+            <!-- CONTENEUR LIENS, ADRESSE ET RESEAUX -->
+            <div class="conteneurPied">
+                
+                <!-- RAPPELS DES LIENS -->
+                <ul class="liensSite">
+                    <li><a href="#" title="Accueil">Accueil</a></li>
+                    <li><a href="#" title="Parcours">Parcours</a></li>
+                    <li><a href="#" title="Le domaine">Le domaine</a></li>
+                    <li><a href="#" title="Les tournois">Les tournois</a></li>
+                    <li><a href="#" title="Tarifs & Contacts">Tarifs & Contacts</a></li>
+                </ul>
+
+                <!-- ADRESSE POSTALE -->
+                <div class="adressePostale">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>18 rue du Green<br>49049 GOLF-LAND</p>
+                </div>
+
+                <!-- NOS RESEAUX SOCIAUX  -->
+                <div class="reseauSociaux">
+                    <p>Suivez-nous !</p>
+                    <div>
+                        <a href="https://www.instagram.com" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    </div>   
+                </div>
+            </div>
+            <p class="copyright">© Copyright | Production interne | ® Tous droits réservés</p>
+        </footer>
+
+        <!-- POPUP -->
+        <div class="fontPopUp">
+            <div class="popUp">
+                <h5>INFORMATIONS</h5>
+                <p id="messagePopUp">...</p>
+                <button id="closePopUp">Fermer</button>
+            </div>
+        </div>
+
+        <!-- FLECHE SCROLL HAUT PAGE -->
+        <div class="flecheScroll">
+            <i class="fa-solid fa-arrow-up" title="Remonter en haut de la page"></i>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
